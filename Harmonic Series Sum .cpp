@@ -52,7 +52,7 @@ void _case_()
     cin >> n ;
     if(n>=mx)
     {
-        long double k=log(n+0.5)+y;
+        long double k=log(n+0.5)+y;                                         // Sn = log(n+0.5)+constant // 
         cout << "Case " << ++t << ": " << setprecision(15) << k el;
     }
     else
